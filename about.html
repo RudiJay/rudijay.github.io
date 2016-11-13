@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>About | Rudi Prentice Game Development</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+
+    <!-- prettyPhoto CSS -->
+    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+
+    <!-- prettyPhoto script -->
+    <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Rudi Prentice Game Development</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li>
+                      <a href="about.html">About</a>
+                  </li>
+                  <li>
+                      <a href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li>
+                      <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Portfolio Item Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">So what's this all about then?</h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div class="col-md-3">
+                <img class="img-responsive" src="images/portrait.jpg" alt="Portrait"/>
+            </div>
+
+            <div class="col-md-9">
+                <h4>Hi, my name is Rudi Prentice, I'm a Plymouth University student
+                and I develop video games. This site is where you'll find my portfolio work.</h4>
+                <p>
+                  That's the brief. They say brevity is the soul of wit so the wall of text below
+                  probably says something bad about me.
+                </p>
+                <p>
+                  I am currently in my second year of study in Computing &amp; Games Development.
+                  It's a great course that covers all the essential
+                  computer science skills as well as a wide range of game development-specific
+                  modules like Unity development and 3D modelling. I also help guide first year
+                  students on the course as a PALS Leader and I am on the committee
+                  for the Games Development Society at the uni where I help prepare weekly talks
+                  and host game jams for our members. I previously studied mathematics, computing,
+                  and film studies at A level and did pretty well for myself.
+                </p>
+                <p>
+                  I've wanted to make video games ever since I was a kid but back then I
+                  didn't know how. At the moment I feel like I've got a bit of a grasp on it,
+                  having been in the arena for a little while. I enjoy all sorts of games, but any game
+                  that has good gameplay whilst also managing to tell a good story will
+                  get my attention quickest. Though these days I spend more time griping about
+                  games on NeoGAF than actually playing them.
+                  I'm proud of my collection of bad PS2 games, concept art books, and tv blu-ray sets,
+                  but not proud of the amount of income I've spent on them.
+                </p>
+                <p>
+                  On this website you'll find a catalogue of my best and brightest
+                  programming and design work, as well as the rest. I try to make
+                  sure all of my projects are available for download if possible.
+                  You have my word that none of them intentionally contains malware.
+                </p>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Rudi Prentice 2016</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" charset="utf-8">
+			$(document).ready(function(){
+				$("area[rel^='prettyPhoto']").prettyPhoto();
+
+				$(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: true});
+				$(".gallery:gt(0) a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'fast',slideshow:10000, hideflash: true});
+
+				$("#custom_content a[rel^='prettyPhoto']:first").prettyPhoto({
+					custom_markup: '<div id="map_canvas" style="width:260px; height:265px"></div>',
+					changepicturecallback: function(){ initialize(); }
+				});
+
+				$("#custom_content a[rel^='prettyPhoto']:last").prettyPhoto({
+					custom_markup: '<div id="bsap_1259344" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div><div id="bsap_1237859" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6" style="height:260px"></div><div id="bsap_1251710" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div>',
+					changepicturecallback: function(){ _bsap.exec(); }
+				});
+			});
+			</script>
+
+</body>
+
+</html>
