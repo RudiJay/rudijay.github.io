@@ -1,12 +1,17 @@
 body
 {
   background-color: #EFEEEE;
-  color: #182744;
+  color: #333;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6
 {
   color: #182744;
+}
+
+.carousel-caption h2, .carousel-caption h3
+{
+  color: #EFEEEE;
 }
 
 .navbar
