@@ -1,146 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Rudi Jay Prentice Portfolio Site">
+    <meta name="author" content="Rudi Prentice">
 
-    <title>Home | Rudi Prentice's Site</title>
+    <title>Rudi Jay Prentice | Portfolio</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/full-slider.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon"/>
+    <!-- Custom CSS styles -->
+    <link href="css/portfolio.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link href='https://fonts.googleapis.com/css?family=Londrina Solid' rel='stylesheet'>
 
-</head>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-<body>
+  </head>
+
+  <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Rudi Prentice's Site</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          Rudi Jay Prentice
+        </a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-        <!-- /.container -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
     </nav>
 
-    <!-- Full Page Image Background Carousel Header -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
-                <a href="somewhere-strange.html">
-                  <div class="fill" style="background-image:url('images/banners/sstrangebanner.png');"></div>
-                  <div class="carousel-caption">
-                      <h2>"Somewhere Strange" - January 2017</h2>
-                      <h3>My first full release. A short narrative experience set on an alien world using all original assets. (Unity, PC)</h3>
-                  </div>
-                </a>
-            </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <a href="void-waves.html">
-                  <div class="fill" style="background-image:url('images/banners/voidwavesbanner.png');"></div>
-                  <div class="carousel-caption">
-                      <h2>"Void Waves" - January 2017</h2>
-                      <h3>A short puzzle game about using satellites to message radio waves developed as part of Loaded Games for Global Game Jam 2017. (Unity, PC)</h3>
-                  </div>
-                </a>
-            </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <a href="ant-sim.html">
-                  <div class="fill" style="background-image:url('images/banners/antbanner.png');"></div>
-                  <div class="carousel-caption">
-                      <h2><span style="background-color: black;">Ant Simulation - January 2016</span></h2>
-                      <h3><span style="background-color: black;">A simulation of a colony of ants searching for food and returning it to their nests. (C#, PC)</span></h3>
-                  </div>
-                </a>
-            </div>
+    <main>
+      <section id="main-block" class="main-block text-white">
+        <img class="main-block__background-image mx-auto"
+          src="images\ssbackground.jpg">
+        <div class="main-block__content text-center mx-auto">
+          <h1 id="tagline" class="menace-font text-outline">Keep Games Interesting</h1>
         </div>
+      </section>
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
+      <section id="about" class="bg-dark after-edge-dark before-edge-dark">
+        <div class="container">
+          <div class="about-block">
+            <div class="about-block__content col-lg-6 mx-auto">
+              <p>
+                <h6>
+                  Hi, I'm Rudi, and I'm a game developer. I currently specialise in
+                  programming but wear all sorts of other hats like designer,
+                  2D artist, and producer to get games made.
+                </h6>
+              </p>
+              <p>
+                I am currently working for <a href="loaded.games" target="_blank">Loaded Games</a>,
+                the games development studio I founded alongside two of my closest friends
+                in the seaside town of Plymouth, England. As a studio, we are working
+                towards on our first release, <a href="loaded.games" target="_blank">"Menace!"</a>.
+                Previously I was part of the programming team at Supermassive Games, where I
+                mainly worked on gameplay programming, prototyping, virtual reality, and UI. While
+                there I helped ship two triple-A virtual reality titles, "The Inpatient" and
+                "Bravo Team" for PS4.
+              </p>
+              <p>
+                I'm enthusiastic about games, both as a medium and an industry, and
+                committed to keeping them both as interesting and exciting as possible.
+                Whether I'm as interesting is up for debate. I love drawing, music,
+                cult cinema, and all sorts of stupid other stuff.
+              </p>
+              <p>
+                I also study at the University of Plymouth, on the final year of
+                the Computing & Games Development course.
+              </p>
+            </div>
+            <div class="about-block__image-wrapper col-lg-6 mx-auto">
+              <img src="images/portrait.png">
+            </div>
+          </div>
+        </div>
+      </section>
 
-    </header>
+      <section id="portfolio" class="bg-light">
+        <div class="container">
+          <div class="portfolio-block">
+            <div class="portfolio-block__content col-lg-6 mx-auto">
+              <h2>Somewhere Strange</h2>
+              <p>
+                is a single-player game that encourages you to delve deep into
+                your desire to cause trouble, make mischief, and be a menace to
+                society. Take on the role of Carl or Caroline, the strange new folk in
+                an idyllic suburban American town, and enact their campaign of dismay
+                on the town in any way you see fit. Ruin picnics, sow dissent between
+                loved ones, or just straight up steal candy from a baby, the
+                method of petty cruelty you use to paint the town red is yours to decide.
+              </p>
 
+            </div>
+            <div class="portfolio-block__image-wrapper col-lg-6 mx-auto">
+                <img class="image-border__image" src="images/menacescreens/screenshot1.png">
+            </div>
+          </div>
+          <div class="portfolio-block">
+            <div class="portfolio-block__content col-lg-6 mx-auto">
+              <h2>The Suburban Discord Puzzler</h2>
+              <p>
+                <i>Menace!</i> is a unique blend of narrative adventure, stealth, puzzling,
+                and player expression in a series of deep sandbox levels. Each area
+                in the game features a set of colourful characters and scenarios for
+                you to interact with in a wide variety of ways.
+              </p>
+            </div>
+            <div class="portfolio-block__image-wrapper col-lg-6 mx-auto">
+                <img class="image-border__image" src="images/menacescreens/screenshot1.png">
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section id="contact" class="bg-dark before-edge-dark">
+        <div class="section-container">
+          <div class="col-lg-6 mx-auto">
+            <h2 class="block-title">Contact</h2>
+            <p class="" style="margin-bottom: 2rem;">
+              Feel free to get in contact by email or follow me on various places across
+              the web, I'd love to hear from you!
+            </p>
+            <div class="team-container">
+              <div class="team-block">
+                <div class="team-photo text-center">
+                  <a href="https://rudijay.itch.io/" target="_blank">
+                    <img src="images/contact/itch.png" alt="Itch.io">
+                  </a>
+                </div>
+              </div>
+              <div class="team-block">
+                <div class="team-photo text-center">
+                  <a href="https://twitter.com/allegedrudijay" target="_blank">
+                    <img src="images/contact/twitter.png" alt="Twitter">
+                  </a>
+                </div>
+              </div>
+              <div class="team-block">
+                <div class="team-photo text-center">
+                  <a href="https://linkedin.com/in/rudiprentice" target="_blank">
+                    <img src="images/contact/linkedin.png" alt="LinkedIn">
+                  </a>
+                </div>
+              </div>
+              <div class="team-block">
+                <div class="team-photo text-center">
+                  <a href="mailto:rudiprentice@gmail.com" target="_blank">
+                    <img src="images/contact/email.png" alt="Email">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+      <!-- Footer -->
+      <section class="py-5 bg-dark before-edge-dark">
+        <div class="section-container">
+          <p class="m-0 text-center text-white">Copyright &copy; Rudi Prentice 2019.</p>
+        </div>
+      </section>
+    </main>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
 
-      ga('create', 'UA-96648556-1', 'auto');
-      ga('send', 'pageview');
+  </body>
 
-    </script>
-
-</body>
-
+  <!--
+   * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+   * Copyright 2013-2017 Start Bootstrap
+   * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+   */-->
 </html>
