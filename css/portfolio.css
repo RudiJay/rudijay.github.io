@@ -9,10 +9,6 @@
   color: #fff!important;
 }
 
-.text-hl {
-  color: #94650E;!important;
-}
-
 .bg-light {
   background-color: #fff!important;
   color: #233740!important;
@@ -24,10 +20,6 @@
 
 .body {
   background-color: #fff;
-}
-
-.menace-font {
-  font-family: 'Londrina Solid', sans-serif;
 }
 
 .text-outline {
@@ -288,7 +280,7 @@ main {
 
 /* Portfolio */
 .portfolio-block {
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
   overflow: hidden;
 }
 
